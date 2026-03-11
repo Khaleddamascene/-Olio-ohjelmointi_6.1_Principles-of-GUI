@@ -1,0 +1,55 @@
+/* Root element */
+.root {
+    -fx-font-family: "Segoe UI", "Arial", "Helvetica", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f9f9f9; /* vaalea tausta */
+}
+
+/* GridPane spacing */
+.grid-pane {
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-padding: 20px;
+}
+
+/* Labelit */
+.label {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Tekstikentät */
+.text-field {
+    -fx-font-family: "Segoe UI", "Arial", "Helvetica", sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-font-family: "Segoe UI", "Arial", "Helvetica", sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 3px;
+}
+
+/* Nappulat */
+.button {
+    -fx-font-family: "Segoe UI", "Arial", "Helvetica", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50; /* vihreä tausta */
+    -fx-text-fill: white;
+    -fx-padding: 5 15 5 15; /* top right bottom left */
+    -fx-background-radius: 5px; /* pyöristetyt kulmat */
+}
+
+/* Nappula hover-efekti */
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Result Field */
+.text-field:disabled {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #333333;
+}
