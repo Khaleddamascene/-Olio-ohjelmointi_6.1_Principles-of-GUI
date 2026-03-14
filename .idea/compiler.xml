@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="6.1.Principles_GUl_event_MVCmodel" />
-        <module name="6.3.Graphics_mouse_and_keyboard_events_updating_the_GUI" />
+        <module name="6.4.GUI_design_tools" />
         <module name="6.2_Layouts_building_the_UI" />
       </profile>
     </annotationProcessing>
